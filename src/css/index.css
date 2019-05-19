@@ -1,0 +1,648 @@
+
+
+/* .logo */
+.logo {
+
+    background-color: #fff;
+
+}
+
+.logo .logo_l {
+    height: 105px;
+    width: 170px;
+    padding-top: 20px;
+}
+
+
+.logo .logo_brand {
+    width: 158px;
+    margin-left: 20px;
+    height: 105px;
+    padding-top: 20px;
+}
+
+.logo .logo_c {
+    height: 50px;
+    width: 500px;
+    /* background-color: #887766; */
+    margin: 25px 0 25px 170px;
+    position: relative;
+}
+
+.logo .logo_c .search {
+
+    width: 450px;
+    height: 50px;
+    border: 1px solid #000;
+    text-indent: 1em;
+    font-size: 16px;
+}
+
+.logo .logo_c i {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 1px solid #000;
+    width: 47px;
+    height: 50px;
+}
+
+.logo .logo_c img {
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.logo .logo_r {
+    height: 105px;
+    width: 215px;
+}
+
+.logo .logo_r img {
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+/* 。nav导航栏 */
+.nav {
+    height: 505px;
+    background-color: #aaa;
+}
+
+.nav .subnav {
+    /* height: 45px; */
+    background-color: #474747;
+    font-size: 16px;
+    line-height: 45px;
+
+}
+
+.nav .subnav .navp {
+    width: 250px;
+    text-align: center;
+    height: 45px;
+    position: relative;
+}
+
+.nav .subnav .navp .navul1 {
+    position: absolute;
+    /* background-color: red; */
+    width: 250px;
+    top: 45px;
+    left: 0;
+    display: block;
+    /* display: none; */
+    z-index: 99;
+    /* height: 200px; */
+}
+
+/* .nav .subnav .navp .navul1:hover {
+    display: block;
+    z-index: 99;
+} */
+
+.nav .subnav .navp .navul1 li {
+    padding-left: 20px;
+    height: 51px;
+    background-color: #336a42;
+}
+
+.nav .subnav .navp .navul1 li:hover {
+    background-color: #00ba31;
+}
+
+.nav .subnav .navp .navul1 i {
+    line-height: 29px;
+    margin-top: 10px;
+    width: 29px;
+    background-position: 0px 0px;
+    float: left;
+    height: 29px;
+    margin-right: 10px;
+    text-decoration: none;
+    background: url(../img/header_ico1.png) no-repeat;
+}
+
+.nav .subnav .navp .navul1 li:nth-child(2) i {
+    background: url(../img/header_ico2.png) no-repeat;
+}
+
+.nav .subnav .navp .navul1 li:nth-child(3) i {
+    background: url(../img/header_ico3.png) no-repeat;
+}
+
+.nav .subnav .navp .navul1 li:nth-child(4) i {
+    background: url(../img/header_ico4.png) no-repeat;
+}
+
+.nav .subnav .navp .navul1 li:nth-child(5) i {
+    background: url(../img/header_ico5.png) no-repeat;
+}
+
+.nav .subnav .navp .navul1 li:nth-child(6) i {
+    background: url(../img/header_ico6.png) no-repeat;
+}
+
+.nav .subnav .navp .navul1 li:nth-child(7) i {
+    background: url(../img/header_ico7.png) no-repeat;
+}
+
+.nav .subnav .navp .navul1 li:nth-child(8) i {
+    background: url(../img/header_ico8.png) no-repeat;
+}
+
+.nav .subnav .navp .navul1 li:nth-child(9) i {
+    background: url(../img/header_ico9.png) no-repeat;
+}
+
+.nav .subnav .navp .navul1 .jt {
+    margin-right: 45px;
+}
+
+.pop {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    padding: 10px 20px 10px 20px;
+    width: 750px;
+    height: 460px;
+    background-color: #fff;
+    font-size: 16px;
+    display: none;
+}
+
+.pop dl {
+    line-height: 22px;
+}
+
+.pop a {
+    color: #454545;
+}
+
+.pop a:hover {
+    color: rgb(243, 0, 0);
+}
+
+.pop dt {
+    font-size: 14px;
+    width: 80px;
+}
+
+.pop dd {
+    width: 565px;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 105px;
+}
+
+.pop dd a {
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 5px;
+
+}
+
+
+/* 导航栏弹出动态 */
+.navul1 li:hover .pop {
+    display: block;
+}
+
+.nav .subnav .navp .navul1 li .pop dl:hover {
+    background-color: #f3f3f3;
+}
+
+.nav .subnav .navul2 li {
+    padding: 0 22px;
+    float: left;
+}
+
+.nav .subnav .navul2 li:hover {
+    background: rgba(149, 149, 149, 0.5);
+}
+
+.nav .subnav .navp:hover {
+    background: rgba(149, 149, 149, 0.5);
+}
+
+/* .nav .subnav .navp:hover a{
+    color:#fff; 
+} */
+.nav .subnav .navul2 li:hover a {
+
+    color: #fff;
+}
+
+/* banner轮播图 */
+.nav .swiper-container {
+    width: 1250px;
+    height: 460px;
+    background: #ccc;
+}
+
+.nav .swiper-slide {
+    font-size: 60px;
+    text-align: center;
+    line-height: 300px;
+}
+
+.nav .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: #666;
+    font-size: 12px;
+}
+
+.nav .swiper-pagination-bullet-active {
+    color: #fff;
+    background: orangered;
+}
+
+
+/* 页面主题 */
+#main {
+    background-color: #ccc;
+    margin-top: 15px;
+}
+
+.hotbigbox {
+    background-color: #fff;
+    widows: 100%;
+}
+
+/* 第一个图片区 */
+.mainbox {
+    height: 230px;
+    margin-bottom: 54px;
+    overflow: hidden;
+}
+
+.mainbox a {
+    width: 300px;
+    height: 230px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.mainbox .maincon {
+    transition: all 0.7s;
+}
+
+.mainbox .mainboxone {
+    margin: 0px;
+}
+
+.mainbox .maincon:hover {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .7);
+    transform: translate3d(0, -2px, 0);
+}
+
+
+
+
+/* H2标签是区别类目使用的标签 */
+.teabigbox {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.title {
+    height: 50px;
+    /* background-color: red; */
+    margin-bottom: 15px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.title .titlename {
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.title .titlemore {
+    font-size: 14px;
+    color: #454545;
+}
+
+/* .productcon是类目茶的公共部分 */
+.hotproduct .productbox {
+    height: 350px;
+    margin-bottom: 50px;
+    /* background-color: #ddd; */
+}
+
+.hotproduct .productbox .productcon {
+    width: 238px;
+    height: 350px;
+    margin-left: 10px;
+    transition: all 0.5s;
+    display: block;
+    float: left;
+}
+
+.hotproduct .productbox .productone {
+    margin: 0px;
+}
+
+.hotproduct .productbox .productcon:hover {
+    transform: translate3d(0, -10px, 0);
+}
+
+
+
+
+/* h3标签是类目茶标题使用的标签 */
+/* .small-title {
+    background-color: green;
+
+} */
+
+.small-title span {
+    margin-left: 20px;
+    width: 230px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.teaproduct .small-title div {
+    width: 1000px;
+    background: #d9ecde;
+    border-top: 2px solid #00ba31;
+}
+
+.teaproduct .cred div {
+    background: #f2d9d9;
+    border-top: 2px solid #f30000;
+}
+
+.teaproduct .cwlc div {
+    background: #efe4df;
+    border-top: 2px solid #d76c3c;
+}
+
+.teaproduct .cblue div {
+    background: #e6eff1;
+    border-top: 2px solid #80d4eb;
+}
+
+.teaproduct .cdeepblue div {
+    background: #d9efed;
+    border-top: 2px solid #00d3c1;
+}
+
+.teaproduct .cyellow div {
+    background: #f3ecde;
+    border-top: 2px solid #ffb932;
+}
+
+
+/* .teaproduct 是类目茶的公共部分 */
+.teaproduct .teabox {
+    height: 300px;
+    margin-bottom: 50px;
+    background-color: #ddd;
+}
+
+.teaproduct .teabox .teacon {
+    width: 240px;
+    height: 300px;
+    margin-left: 12px;
+    background-color: #fff;
+    display: block;
+}
+
+.teaproduct .teabox .teaone {
+    margin: 0px;
+    background: url(../img/pic34.png) no-repeat;
+    display: block;
+    position: relative;
+}
+
+.teaproduct .teabox2 .teaone {
+    background: url(../img/pic35.png) no-repeat;
+}
+
+.teaproduct .teabox3 .teaone {
+    background: url(../img/pic36.png) no-repeat;
+}
+
+.teaproduct .teabox4 .teaone {
+    background: url(../img/pic37.png) no-repeat;
+}
+
+.teaproduct .teabox5 .teaone {
+    background: url(../img/pic38.png) no-repeat;
+}
+
+.teaproduct .teabox6 .teaone {
+    background: url(../img/pic39.png) no-repeat;
+}
+
+.teaproduct .teabox .teaone .teaonediv {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    z-index: 1;
+
+}
+
+.teaproduct .teabox .teacon .teadiv {
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    padding-top:10px;
+    color:#000;font-size: 14px;
+    /* style="color:#000;font-size:14px;" */
+
+}
+
+.teaproduct .teabox .teacon .teaonediv p:nth-child(1) {
+    line-height: 16px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.teaproduct .teabox .teacon .teadiv p .teaone_sp1 {
+    font-size: 16px;
+    line-height: 16px;
+    color: red;
+    
+}
+
+.teaproduct .teabox .teacon .teadiv p .teaone_sp2 {
+    line-height: 12px;
+    font-size: 12px;
+    color: red;
+    text-decoration: line-through;
+}
+
+/* 和茶类动态效果 */
+.teaproduct .teabox li a {
+    overflow: hidden;
+}
+/* 图片向右移动的效果
+.teaproduct .teabox li:hover img {
+
+    transform: translate3d(-10px, 0, 0);
+} */
+
+.teaproduct .teabox .teaone:hover .teaonediv {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* .teaproduct .teabox .teaone .teaone_bg{
+    
+} */
+
+
+/* 茶的内容部分 */
+.teatext {
+    height: 455px;
+    margin-bottom: 115px;
+}
+
+.teatext ul li {
+    float: left;
+    width: 394px;
+    padding: 8px;
+    background: #fff;
+    height: 440px;
+    overflow: hidden;
+
+}
+
+.teatext ul .middle {
+    margin: 0 10px;
+}
+
+.teatext ul li .txt {
+    padding: 50px 10px 0 10px;
+    color: #000;
+    font-size: 14px;
+}
+
+.teatext ul li .txt .word {
+    color: #454545;
+    height: 95px;
+}
+
+.teatext ul li .txt .from {
+    color: #afadad;
+    margin: 0 0 5px 0;
+}
+
+.teatext ul li .txt span {
+    color: red;
+}
+
+.teatext li .txt p:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.foot .foot-pic {
+    width: 1200px;
+    margin: 85px auto 65px;
+}
+
+.foot .foot-pic li {
+    float: left;
+    border-left: 1px solid #b5b5b5;
+    padding: 0 85px 0 54px;
+}
+
+.foot .foot-pic li a {
+    display: inline-block;
+}
+
+.foot .foot-pic li.first {
+    border-left: 0;
+}
+
+.foot-txt {
+    width: 1200px;
+    margin: 0 auto 30px;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+
+.foot-txt li {
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #454545;
+    width: 195px;
+}
+
+.foot-txt li a {
+    color: #454545;
+}
+
+.foot-txt li p {
+    margin-bottom: 15px;
+    line-height: 1.5em;
+}
+
+.foot-txt li .one {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.foot-txt li .hotphone {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.foot-txt li .phone {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.foot-txt li .time {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.foot-bg {
+    background: #f2f2f2;
+    height: 135px;
+}
+
+.foot-bg .left-txt {
+    margin-top: 45px;
+    font-size: 15px;
+    line-height: 28px;
+    width: 620px;
+
+}
+
+.foot-bg .left-txt a {
+    color: #000;
+}
+
+.foot-bg .left-txt a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.foot-bg .middle-pic {
+    margin: 100px 0 0 20px;
+}
+
+.foot-bg .right-pic {
+    margin-top: 50px;
+}

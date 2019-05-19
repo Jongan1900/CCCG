@@ -1,0 +1,666 @@
+@charset "UTF-8";
+
+
+
+input {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+// 购物车顶部样式
+.logo .logo_r {
+
+    position: relative;
+
+    p {
+        height: 55px;
+        width: 482px;
+        position: absolute;
+        top: 25px;
+        right: 0px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        z-index: 99;
+        line-height: 300px;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+
+    .cart_step1 {
+        background: url(../img/gl/cart_setp1.png);
+    }
+}
+
+
+// 购物车整体内容
+.line3 {
+    width: 100%;
+    height: 2px;
+    background-color: #60a411;
+
+}
+
+
+.cartbox {
+    
+    .cart_main {
+        font-size: 12px;
+
+        .title {
+            margin-bottom: 15px;
+
+            h3 {
+                font-size: 24px;
+                height: 36px;
+                text-align: left;
+                float: left;
+                width: 500px;
+            }
+
+            em {
+                text-align: center;
+                margin-top: 10px;
+                font-size: 14px;
+                line-height: 25px;
+                height: 25px;
+
+                strong {
+                    padding: 0 5px;
+                    color: #cd0606;
+                }
+
+                a {
+                    color: #fff;
+                    display: block;
+                    width: 44px;
+                    height: 25px;
+                    background-color: #cd0606;
+                    border-radius: 5px;
+
+                }
+            }
+        }
+
+        .cart_list {
+            ul li {
+                p {
+                    float: left;
+                    color: #888888;
+                }
+            }
+
+
+            p.ck {
+
+                padding-left: 20px;
+                padding-top: 40px;
+                text-align: left;
+            }
+
+            p.img {
+                width: 80px;
+                padding: 0 15px
+            }
+
+            p.ico {
+                width: 50px;
+                padding-left: 8px;
+
+                span {
+                    background-image: url(../img/gl/cartlist.png);
+                    background-repeat: no-repeat;
+                    height: 16px;
+                    width: 16px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    display: block;
+                    margin-top: 10px;
+                    line-height: 40px;
+                    overflow: hidden;
+                }
+            }
+
+            p.bt2 {
+                font-size: 14px;
+            }
+
+            p.txt {
+                width: 370px;
+                padding-right: 120px;
+                padding-left: 10px;
+                text-align: left;
+            }
+
+            p.mpri {
+                width: 110px;
+            }
+
+            p.save {
+                width: 110px;
+            }
+
+            p.sunm {
+                width: 100px;
+            }
+
+            p.pri {
+                width: 100px;
+            }
+
+            p.st {
+                text-align: center;
+
+                .del {
+                    line-height: 60px;
+                    height: 16px;
+                    width: 16px;
+                    background-image: url(../img/gl/ico3a.png);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    overflow: hidden;
+                    display: block;
+                    margin: 0 auto;
+                    cursor: pointer;
+                    margin-top: 18px;
+
+                }
+
+                .del:hover {
+                    background: url(../img/gl/ico3b.png) no-repeat;
+                    background-position: center center;
+                }
+            }
+
+            .txa {
+                line-height: 38px;
+                height: 38px;
+                color: #8c8c8c;
+                border-top-width: 1px;
+                border-right-width: 1px;
+                border-left-width: 1px;
+                border-top-style: solid;
+                border-right-style: solid;
+                border-left-style: solid;
+                border-top-color: #e0e0e0;
+                border-right-color: #e0e0e0;
+                border-left-color: #e0e0e0;
+
+                p {
+                    padding-top: 0px;
+                    color: #8c8c8c;
+                    text-align: center;
+
+                    img {
+                        height: auto;
+                        padding-bottom: 0px;
+                    }
+                }
+            }
+
+            .txb {
+                background-color: #f7f7f7;
+                // position: relative;
+                line-height: 35px;
+                height: 35px;
+                margin-top: -1px;
+                z-index: 9;
+                border: 1px solid #e0e0e0;
+                padding-top: 7px;
+                padding-bottom: 7px;
+
+                p {
+                    color: #111111;
+                }
+
+                p.ck {
+                    padding-top: 2px;
+                    height: 20px;
+                    // width: 20px;
+                    // padding-top: 0px;
+                    color: #111111;
+                }
+            }
+
+            .txd {
+                background-color: #ffffff;
+                position: relative;
+                height: 30px;
+                z-index: -1;
+                border-right-width: 1px;
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-style: solid;
+                border-bottom-style: solid;
+                border-left-style: solid;
+                border-right-color: #e0e0e0;
+                border-bottom-color: #e0e0e0;
+                border-left-color: #e0e0e0;
+
+                p.tx {
+                    height: 20px;
+                    width: 80px;
+                    background-color: #f5f5f5;
+                    line-height: 20px;
+                    color: #6c6c6c;
+                    position: absolute;
+                    z-index: 99;
+                    left: 64px;
+                    bottom: -1px;
+                    border: 1px solid #e0e0e0;
+                    text-align: center;
+                }
+            }
+
+            .pro {
+
+                border-right-width: 1px;
+                border-left-width: 1px;
+                border-right-style: solid;
+                border-left-style: solid;
+                border-right-color: #e0e0e0;
+                border-left-color: #e0e0e0;
+                border-bottom-width: 1px;
+                border-bottom-style: dotted;
+                border-bottom-color: #e0e0e0;
+
+                a {
+                    color: #666;
+                }
+
+                p {
+                    padding-top: 25px;
+                    text-align: center;
+                }
+
+                p.ck {
+                    padding-top: 40px;
+                    padding-right: 10px;
+                }
+
+                p.img {
+                    padding-top: 12px;
+                    padding-right: 15px;
+                    padding-bottom: 12px;
+                    padding-left: 15px;
+                    height: 80px;
+
+                    img {
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+
+                p.txt {
+                    width: 370px;
+                    padding-right: 120px;
+                    padding-left: 10px;
+                    text-align: left;
+                }
+
+                p.mpri {
+
+                    del {
+                        display: block;
+                        color: #9c9c9c;
+                        height: 20px;
+                    }
+
+                    strong {
+                        font-weight: normal;
+                        color: #3c3c3c;
+                        line-height: 16px;
+                        height: 16px;
+                    }
+                }
+
+                p.save {
+
+                    strong {
+                        display: block;
+                        color: #9c9c9c;
+                        height: 20px;
+                    }
+
+                    small {
+                        font-size: 12px;
+                        color: #ffffff;
+                        background-color: #ff9518;
+                        display: block;
+                        margin-right: auto;
+                        margin-left: auto;
+                        width: 36px;
+                        text-align: center;
+                        line-height: 17px;
+                        height: 17px;
+                    }
+                }
+
+                p.sunm {
+                    width: 100px;
+                    position: relative;
+
+                    input {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        height: 27px;
+                        border: 1px solid #cccccc;
+                        width: 36px;
+                        font-size: 14px;
+                        left: 20px;
+                        top: 35px;
+                        position: absolute;
+                        display: block;
+                        line-height: 27px;
+                        color: #999999;
+                    }
+
+                    .add {
+                        left: 63px;
+                        top: 35px;
+                        position: absolute;
+                    }
+
+                    i {
+                        background-image: url(../img/gl/goodsinfo_img1a.png);
+                        background-repeat: no-repeat;
+                        display: block;
+                        height: 14px;
+                        width: 18px;
+                        position: absolute;
+                        cursor: pointer;
+                        line-height: 50px;
+                        overflow: hidden;
+                    }
+
+                    .min {
+                        left: 63px;
+                        top: 52px;
+                        position: absolute;
+                        background-position: 0 -17px;
+                    }
+                }
+
+                p.pri {
+                    strong {
+                        color: #cd0606;
+                        display: block;
+                        margin-right: auto;
+                        margin-left: auto;
+                        font-weight: normal;
+                        font-size: 14px;
+                        padding-top: 14px;
+                    }
+                }
+
+                // p.st {
+                //     text-align: center;
+
+                //     .del {
+                //         line-height: 60px;
+                //         height: 16px;
+                //         width: 16px;
+                //         background-image: url(../img/gl/ico3a.png);
+                //         background-repeat: no-repeat;
+                //         background-position: center center;
+                //         padding-right: 10px;
+                //         padding-left: 10px;
+                //         overflow: hidden;
+                //         display: block;
+                //         margin: 0 auto;
+                //         cursor: pointer;
+                //         margin-top: 18px;
+
+                //     }
+
+                //     .del:hover {
+                //         background: url(../img/gl/ico3b.png) no-repeat;
+                //         background-position: center center;
+                //     }
+                // }
+
+            }
+
+            .txc {
+                background-color: transparent;
+                padding-top: 5px;
+                margin-top: -1px;
+                border-top-width: 1px;
+                border-top-style: solid;
+                border-top-color: #e0e0e0;
+
+                p.ck {
+                    padding-top: 2px;
+                    width: 80px;
+                    // text-align: left;
+                }
+
+                p.st {
+                    padding-top: 0px;
+                    margin-top: 0px;
+                    // width: 150px;
+                    padding-left: 30px;
+
+
+
+                    a {
+                        color: #000;
+                        display:block;
+                    }
+
+                    .del {
+                        margin-top: 4px;
+                        margin-right: 0px;
+                        margin-left: 0px;
+                        float: left;
+                        text-align: left;
+                        width: 20px;
+                        padding: 0px;
+                    }
+
+                    strong {
+                        padding-top: 3px;
+                        font-weight: normal;
+                        float: left;
+                        padding-left: 3px;
+                    }
+
+
+                }
+
+
+            }
+
+        }
+    }
+}
+
+.line4 {
+    height: 15px;
+}
+
+// 总价区域
+.cartbox {
+    .pribox {
+        height: 100px;
+        // background-color: red;
+    }
+
+    .rbox {
+        padding: 60px 15px 0 0;
+
+        p.tx {
+            padding-right: 5px;
+            padding-top: 20px;
+            color: #8c8c8c;
+            // height:36px;
+            font-size: 14px;
+        }
+
+        .pri {
+            font-size: 40px;
+            line-height: 40px;
+            color: #cd0606;
+            font-weight: bold;
+        }
+    }
+}
+
+// 购物车的立即结算还有继续购物两个标签部分
+.cart_buy {
+   
+    // background-color: red;
+    line-height: 35px;
+    padding:10px 5px;
+
+    a {
+        height: 35px;
+        width: 163px;
+        overflow: hidden;
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        color: #ffffff;
+    }
+    p.back a{
+        background: url(../img/gl/buy_bk.png) no-repeat;
+
+    }
+    p.buy a{
+        background: url(../img/gl/buy_go.png) no-repeat;
+        
+    }
+    
+}
+
+
+.topcomprobox {
+    width: 1250px;
+    height: 280px;
+
+    // background-color: yellow;
+    .comproul {
+        background-color: #f2f2f2;
+        // width: 120px;
+        cursor: pointer;
+
+        .comproli {
+            font-size: 14px;
+            height: 38px;
+            width: 120px;
+            padding: 0 40px;
+            line-height: 38px;
+            text-align: center;
+            float: left;
+            border-right: 2px solid #fff;
+            border-bottom: 2px solid #dbdbdb;
+            cursor: pointer;
+        }
+
+        .on {
+            border-bottom: 2px solid #60a411;
+            color: #397300;
+        }
+    }
+
+    .comprodiv {
+        height: auto;
+        margin-left: 30px;
+        width: 1250px;
+        padding-top: 30px;
+        // background: #ccc;
+        color: #666666;
+
+        .comprocon {
+            display: none;
+        }
+
+        .disblock {
+            display: block;
+        }
+
+        ul {
+            li {
+                float: left;
+            }
+
+            .ql {
+                width: 160px;
+                height: 226px;
+                padding: 0 15px;
+
+                // background-color: green;
+                a {
+                    color: #666666;
+
+                    img {
+                        width: 160px;
+                        height: 160px;
+
+                    }
+                }
+
+                .ql_p1 {
+                    width: 160px;
+                    height: 34px;
+                    line-height: 17px;
+                    font-size: 12px;
+                    text-align: left;
+                    overflow: hidden;
+                    margin-bottom: 5px;
+                }
+
+                .ql_p2 {
+                    font-size: 12px;
+                    text-align: left;
+
+                    strong {
+                        color: red;
+                        padding-left: 5px;
+                    }
+
+                    del {
+                        color: #666;
+                        padding-left: 2px;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+// 根据浏览看你喜欢
+
+
+
+
+// 优惠活动推荐 
+
+.moreact {
+    // background-color: red;
+    height: 300px;
+
+    .tx {
+        background: url(../img/gl/moreact.gif) no-repeat;
+        height: 40px;
+        text-indent: -9999999px;
+        margin: 0 20px;
+    }
+
+    .lix {
+        padding-left: 100px;
+
+        .actimg {
+            width: 480px;
+            height: 130px;
+            padding: 10px;
+            float: left;
+        }
+    }
+
+}
